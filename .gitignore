@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+results/
+checkpoints/
+models/
+trained_models/
+
+# Hugging Face / transformers cache and tokens
+.cache/
+.hf/
+huggingface/
+transformers_cache/
+tokenizers/
+# Don't commit Hugging Face credentials
+*.hf_token
+*.huggingface_token
+*.token
+
+# Large model/checkpoint files
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Dataset and data files
+data/
+dataset_cache/
+*.arrow
+*.parquet
+*.csv
+*.tsv
+
+# Docker
+docker/
+docker-compose.override.yml
+
+# Misc
+local_settings.py
+profile_default/
+ipython_config.py
