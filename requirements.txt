@@ -1,0 +1,8 @@
+accelerate
+bitsandbytes
+git+https://github.com/huggingface/transformers.git
+huggingface-hub
+torch
+numpy
+pillow
+requests
